@@ -5,7 +5,7 @@ The builders must cover a rectangular area of size M × N (M and N are even numb
 Given the layout of the bricks in the first layer, determine the possible layout for the second one, or show that it is impossible to make the second layer.
 
 Example. The two pictures show the layout of the two layers respectively. The size of the area is 2 × 4. Each brick is marked with its number on both halves.
-![](https://github.com/petevmv/StrongBrickWork/blob/master/Input_output.jpg)
+![](https://github.com/petevmv/StrongBrickWork/blob/master/layer1_and_2.png)
 
 ### Input
 
