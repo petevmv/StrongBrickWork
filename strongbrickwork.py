@@ -14,6 +14,7 @@ N_list = []
 for i in range(N):
     N_list.append(input("Enter numbers to form bricks separeted by space: ").split())
     print(N_list[i])
+
     if len(N_list[i]) != M:
         print("You have entered more elements than required based on you'r {}x{} input, entering first {} of them".format(N, M, M))
         N_list[i] = N_list[i][0:M]
@@ -28,8 +29,10 @@ try:
             if arr_2[i,j] != 0:
                 continue
             if j == len(arr_2[i]) - 1:
+
                 arr_2[i,j] = arr[i+1,0]
                 arr_2[i+1,j] = arr[i+1,0]
+                print(len(arr_2[i])-1, j)
                 break
             if arr[i,j] == arr[i,j+1]:
                 arr_2[i,j] = arr[i,j]
